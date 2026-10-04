@@ -33,13 +33,17 @@ x-category: "Science & Math"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Science And Math
   - Public APIs
+  - OAI-PMH
+  - Scholarly
+  - Citations
+  - Science
+  - Physics
+  - Research
 apis:
   - name: inspirehep.net
     description: "High Energy Physics info. system"
     humanURL: https://github.com/inspirehep/rest-api-doc
-    baseURL: https://github.com/inspirehep/rest-api-doc
     tags:
       - Science And Math
     properties:
@@ -53,3 +57,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Science And Math
